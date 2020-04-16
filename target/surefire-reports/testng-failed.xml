@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.practice.HomePagePracticeTest">
+        <methods>
+          <include name="verifyHomePageDealsPageLinkTest"/>
+          <include name="verifyHomePageUserLabelTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageCalendarPageLinkTest"/>
+          <include name="verifyHomePageContactsPageLinkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.practice.HomePagePracticeTest -->
+      <class name="com.crm.qa.testcases.practice.LoginPagePracticeTest">
+        <methods>
+          <include name="verifyCustomersLnkTest"/>
+          <include name="verifySignUpLnkTest"/>
+          <include name="setUp"/>
+          <include name="verifyPricingLnkTest"/>
+          <include name="validateLoginPageCRMImageTest"/>
+          <include name="verifyFeaturesLnkTest"/>
+          <include name="validateLoginPageTitleTest"/>
+          <include name="verifyContactLnkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.practice.LoginPagePracticeTest -->
+      <class name="com.crm.qa.testcases.practice.HomePageContactsPageTest">
+        <methods>
+          <include name="selectContactsTest"/>
+          <include name="newContactTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageContactsPageLabelTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.practice.HomePageContactsPageTest -->
+      <class name="com.crm.qa.testcases.practice.SignUpPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySignUpPageTitleTest"/>
+          <include name="verifySignUpPgaeLabelTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.practice.SignUpPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

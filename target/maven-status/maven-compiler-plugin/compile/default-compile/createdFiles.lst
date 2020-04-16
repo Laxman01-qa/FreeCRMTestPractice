@@ -1,0 +1,14 @@
+com\crm\qa\pages\LoginPagePractice.class
+com\crm\qa\pages\HomePageContactsPage.class
+com\crm\qa\pages\CustomersPage.class
+com\crm\qa\pages\ContactsPagePractice.class
+com\crm\qa\pages\HomePagePractice.class
+com\listener\extentReportListener\ExtentReporterNG.class
+com\crm\qa\pages\PricingPage.class
+com\crm\qa\utilpractice\TestUtilPractice.class
+com\crm\qa\pages\SignUpPage.class
+com\crm\qa\pages\FeaturesPage.class
+com\crm\qa\basepractice\TestBasePractice.class
+com\crm\qa\pages\HomePageCalendarPage.class
+com\crm\qa\pages\ContactPage.class
+com\crm\qa\pages\HomePageDealsPage.class
